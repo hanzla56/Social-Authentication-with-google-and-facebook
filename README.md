@@ -57,7 +57,10 @@ AUTHENTICATION_BACKENDS = (
  'allauth.account.auth_backends.AuthenticationBackend',
  )
 ________________________
-
+ADD Django allauth middleware in the middleware section
+    # Add the account middleware:
+    "allauth.account.middleware.AccountMiddleware",
+ 
 
 
 ________________________
